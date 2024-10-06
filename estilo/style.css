@@ -4,7 +4,8 @@ form {
     width: 30%;
 }
 
-th {
+th,
+td {
     border: 1px solid #000;
     background-color: gainsboro;
 }
