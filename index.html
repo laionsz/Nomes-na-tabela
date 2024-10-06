@@ -4,11 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Challenge OakTecnologia</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/fonts.css">
 </head>
 
 <body>
+    <h1> Cadastro de Produtos</h1>
+    <form id="formm">
+        <label for="nomeproduto">Nome do produto</label>
+        <input type="text" id="nomeproduto" name="nomeproduto" required>
 
+        <label for="descproduto">Destrição do produto</label>
+        <input type="text" id="descproduto" name="descproduto" required>
+
+        <label for="valorproduto">Valor do produto</label>
+        <input type="number" id="valorproduto" name="valorproduto">
+
+        <label for="dispproduto">Disponível para a venda</label>
+        <select id="dispproduto" name="dispproduto">
+            <option value="sim">Sim</option>
+            <option value="nao">Não</option>
+        </select>
+        <button type="submit">Adicionar produto</button>
+
+
+
+    </form>
+
+
+
+
+
+    <script src="functions.js"></script>
 </body>
 
 </html>
